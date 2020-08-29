@@ -1,0 +1,7 @@
+// 登錄
+package login;
+ 
+//登錄請求
+message LoginReq{
+    required int32 uid = 1;      //用户id
+}
